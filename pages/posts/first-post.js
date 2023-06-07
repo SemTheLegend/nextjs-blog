@@ -18,7 +18,7 @@ export default function FirstPost() {
   );
 }
 
-export default function Alert({ children, type }) {
+export function Alert({ children, type }) {
   return (
     <div
       className={clsx({
