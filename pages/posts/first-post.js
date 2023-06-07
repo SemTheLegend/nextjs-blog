@@ -18,14 +18,14 @@ export default function FirstPost() {
   );
 }
 
-export function Alert({ children, type }) {
-  return (
-    <div
-      className={clsx({
-        [styles.success]: type === 'success',
-        [styles.error]: type === 'error',
-      })}>
-      {children}
-    </div>
-  )
-}
+// export function Alert({ children, type }) {
+//   return (
+//     <div
+//       className={clsx({
+//         [styles.success]: type === 'success',
+//         [styles.error]: type === 'error',
+//       })}>
+//       {children}
+//     </div>
+//   )
+// }
